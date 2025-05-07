@@ -1,3 +1,31 @@
+# Project Name
+
+This project was created with the name "TimerApp".
+
+## Description
+
+The React Native Timer App is a mobile application designed to help users create, manage, and interact with multiple customizable timers. Whether you're tracking workout intervals, cooking time, or tasks for productivity.
+
+## Key Features
+
+Multiple Customizable Timers: Users can create and customize timers with different durations.
+Categories: Organize timers into categories such as “Work,” “Exercise,” “Cooking,” or any other user-defined group, helping users easily find and manage related timers.
+Execute predefined actions (like starting, pausing, resetting) on multiple timers simultaneously within a group.
+Real-time progress visualization with a progress bar
+
+## Screens
+
+Home Screen: Allows users to set up new timers, choose the category, define the duration. Displays all timers with start, stop, or reset each timer. Progress Visualization: Dynamic progress bars that providing users with clear visual feedback and Completed message.
+History Screen: Display the log on a separate "History" screen
+
+## State Management:
+
+Local state management using React’s built-in useState and useReducer hooks and Context Api
+
+## Persistent Data:
+
+Timer data is saved locally on the device using AsyncStorage
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
